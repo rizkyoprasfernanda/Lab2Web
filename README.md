@@ -110,9 +110,9 @@ Muncul sebuah halaman baru dengan nama Biodata Mahasiswa.
 
 <br>
 <br>
-Pertanyaan dan Jawaban HTML
+Pertanyaan dan Jawaban
 
-Apa fungsi &lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, dan &lt;td&gt;?
+1. Apa fungsi &lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, dan &lt;td&gt;?
 
 Berikut fungsi dari masing-masing elemen:
 
@@ -124,7 +124,7 @@ Berikut fungsi dari masing-masing elemen:
 
 &lt;td&gt;: Membuat sel yang berisi data tabel.
 
-Apa perbedaan &lt;th&gt; dan &lt;td&gt;?
+2. Apa perbedaan &lt;th&gt; dan &lt;td&gt;?
 
 Perbedaan &lt;th&gt; dan &lt;td&gt; adalah:
 
@@ -134,7 +134,7 @@ Perbedaan &lt;th&gt; dan &lt;td&gt; adalah:
 
 Secara default, teks pada &lt;th&gt; ditampilkan tebal dan rata tengah, sedangkan &lt;td&gt; ditampilkan sebagai teks normal.
 
-Apa fungsi colspan pada tabel?
+3. Apa fungsi colspan pada tabel?
 
 colspan berfungsi untuk menggabungkan dua atau lebih kolom dalam satu baris menjadi satu sel.
 
@@ -144,13 +144,13 @@ Contoh penggunaan:
 
 Kode tersebut menggabungkan tiga kolom menjadi satu sel.
 
-Apa fungsi &lt;form&gt; dalam HTML?
+4. Apa fungsi &lt;form&gt; dalam HTML?
 
 &lt;form&gt; berfungsi sebagai wadah interaktif untuk menampung berbagai elemen input yang digunakan untuk menerima data dari pengguna.
 
 Data yang dimasukkan ke dalam form dapat dikirim untuk diproses.
 
-Apa perbedaan Radio Button dan Checkbox?
+5. Apa perbedaan Radio Button dan Checkbox?
 
 Perbedaannya adalah:
 
@@ -160,7 +160,7 @@ Checkbox memungkinkan pengguna memilih beberapa opsi sekaligus.
 
 Checkbox juga dapat dibiarkan tidak dipilih sama sekali.
 
-Mengapa &lt;label&gt; sebaiknya terhubung dengan id input melalui atribut for?
+6. Mengapa &lt;label&gt; sebaiknya terhubung dengan id input melalui atribut for?
 
 &lt;label&gt; sebaiknya terhubung dengan id input melalui atribut for agar label dapat diklik untuk memfokuskan atau memilih input yang terkait.
 
@@ -173,7 +173,7 @@ Contoh:
 
 Pada contoh tersebut, for="nama" terhubung dengan id="nama".
 
-Apa perbedaan &lt;textarea&gt; dengan input type="text"?
+7. Apa perbedaan &lt;textarea&gt; dengan input type="text"?
 
 Perbedaannya adalah:
 
@@ -183,7 +183,7 @@ Perbedaannya adalah:
 
 &lt;textarea&gt; lebih sesuai digunakan untuk memasukkan teks yang panjang.
 
-Apa fungsi Semantic HTML seperti &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;section&gt;, &lt;article&gt;, &lt;aside&gt;, dan &lt;footer&gt;?
+8. Apa fungsi Semantic HTML seperti &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;section&gt;, &lt;article&gt;, &lt;aside&gt;, dan &lt;footer&gt;?
 
 Semantic HTML berfungsi memberikan makna dan struktur yang jelas pada setiap bagian dokumen HTML.
 
@@ -205,7 +205,7 @@ Fungsi dari masing-masing elemen adalah:
 
 Penggunaan Semantic HTML membuat kode lebih mudah dibaca dan membantu browser, mesin pencari (SEO), serta teknologi bantu memahami struktur halaman.
 
-Apa fungsi required, min, max, dan minlength?
+9. Apa fungsi required, min, max, dan minlength?
 
 Fungsi dari masing-masing atribut adalah:
 
@@ -223,7 +223,7 @@ Contoh:
 
 Kode tersebut menunjukkan bahwa input wajib diisi dan harus memiliki minimal 5 karakter.
 
-Apa perbedaan elemen &lt;audio&gt; dan &lt;video&gt;?
+10. Apa perbedaan elemen &lt;audio&gt; dan &lt;video&gt;?
 
 Perbedaannya adalah:
 
