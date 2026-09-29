@@ -227,9 +227,3 @@ Perbedaannya adalah:
 <audio> digunakan untuk memutar berkas suara atau audio.
 
 <video> digunakan untuk memutar berkas video beserta tampilan visualnya.
-
-Kesimpulan
-
-Pada Praktikum 2 Pemrograman Web, telah dipelajari berbagai dasar HTML, mulai dari pembuatan tabel, form, radio button, checkbox, select, textarea, validasi form, Semantic HTML, hingga penambahan multimedia.
-
-Selain itu, melalui proyek mini Form Biodata Mahasiswa, konsep-konsep HTML yang telah dipelajari dapat diterapkan dalam pembuatan sebuah halaman web yang lebih lengkap dan terstruktur.
