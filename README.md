@@ -34,7 +34,9 @@ Muncul tabel Data Mahasiswa dengan isi kolom NIM, Nama, dan Program Studi.
 
 2. Mengembangkan Tabel dengan thead, tbody, dan tfoot
 
-Pada tahap ini dilakukan pengembangan tabel menggunakan elemen thead, tbody, dan tfoot. Data diubah, ditambahkan beberapa baris, serta menggunakan colspan untuk menggabungkan sel.
+Pada tahap ini dilakukan pengembangan tabel menggunakan elemen thead, tbody, dan tfoot.
+
+Data diubah, ditambahkan beberapa baris, serta menggunakan colspan untuk menggabungkan sel.
 
 <img src="media/ss/5.png" alt="Screenshot 5">
 Hasil
@@ -109,49 +111,80 @@ Pertanyaan dan Jawaban
 
 1. Apa fungsi <table>, <tr>, <th>, dan <td>?
 
+Berikut fungsi dari masing-masing elemen:
+
 <table>: Membuat kerangka atau wadah utama tabel.
 
 <tr>: Membuat baris baru di dalam tabel.
 
-<th>: Membuat sel judul atau header pada tabel, yang secara default ditampilkan tebal dan rata tengah.
+<th>: Membuat sel judul atau header pada tabel. Secara default, teks ditampilkan tebal dan rata tengah.
 
-<td>: Membuat sel data isi tabel.
+<td>: Membuat sel yang berisi data tabel.
 
 2. Apa perbedaan <th> dan <td>?
 
-<th> digunakan untuk sel kepala atau judul tabel dengan teks yang secara default ditampilkan tebal (bold) dan rata tengah.
+Perbedaan <th> dan <td> adalah:
 
-Sedangkan <td> digunakan untuk sel data reguler dengan teks normal.
+<th> digunakan untuk membuat sel kepala atau judul tabel (header).
+
+<td> digunakan untuk membuat sel data biasa.
+
+Secara default, teks pada <th> ditampilkan tebal dan rata tengah, sedangkan <td> ditampilkan sebagai teks normal.
 
 3. Apa fungsi colspan pada tabel?
 
 colspan berfungsi untuk menggabungkan dua atau lebih kolom dalam satu baris menjadi satu sel.
 
+Contoh penggunaan:
+
+<td colspan="3">Data Mahasiswa</td>
+
+Kode tersebut menggabungkan tiga kolom menjadi satu sel.
+
 4. Apa fungsi <form> dalam HTML?
 
-<form> berfungsi sebagai wadah interaktif untuk menampung elemen-elemen input data pengguna agar dapat dikirim dan diproses.
+<form> berfungsi sebagai wadah interaktif untuk menampung berbagai elemen input yang digunakan untuk menerima data dari pengguna.
 
-5. Apa perbedaan radio button dan checkbox?
+Data yang dimasukkan ke dalam form dapat dikirim untuk diproses.
+
+5. Apa perbedaan Radio Button dan Checkbox?
+
+Perbedaannya adalah:
 
 Radio Button hanya memperbolehkan pengguna memilih satu opsi dari sebuah kelompok.
 
-Sedangkan Checkbox memperbolehkan pengguna memilih banyak opsi, yaitu bisa nol, satu, atau lebih opsi sekaligus.
+Checkbox memungkinkan pengguna memilih beberapa opsi sekaligus.
+
+Checkbox juga dapat dibiarkan tidak dipilih sama sekali.
 
 6. Mengapa <label> sebaiknya terhubung dengan id input melalui atribut for?
 
-Agar area teks label dapat diklik untuk memfokuskan kursor secara otomatis ke kotak input terkait, sehingga meningkatkan aksesibilitas dan kemudahan penggunaan web.
+<label> sebaiknya terhubung dengan id input melalui atribut for agar label dapat diklik untuk memfokuskan atau memilih input yang terkait.
+
+Hal ini juga dapat meningkatkan aksesibilitas dan kemudahan penggunaan halaman web.
+
+Contoh:
+
+<label for="nama">Nama:</label>
+<input type="text" id="nama">
+
+Pada contoh tersebut, for="nama" terhubung dengan id="nama".
 
 7. Apa perbedaan <textarea> dengan input type="text"?
 
-input type="text" hanya menyediakan satu baris input teks.
+Perbedaannya adalah:
 
-Sedangkan <textarea> menyediakan area input teks multi-baris yang dapat digunakan untuk memasukkan teks yang lebih panjang.
+<input type="text"> digunakan untuk memasukkan teks dalam satu baris.
+
+<textarea> digunakan untuk memasukkan teks dalam beberapa baris.
+
+<textarea> lebih sesuai digunakan untuk memasukkan teks yang panjang.
 
 8. Apa fungsi Semantic HTML seperti <header>, <nav>, <main>, <section>, <article>, <aside>, dan <footer>?
 
-Semantic HTML berfungsi memberikan kejelasan makna dan struktur dokumen kepada browser, mesin pencari (SEO), dan pengembang sehingga kode lebih mudah dibaca dan diakses.
+Semantic HTML berfungsi memberikan makna dan struktur yang jelas pada setiap bagian dokumen HTML.
 
-Beberapa elemen Semantic HTML memiliki fungsi sebagai berikut:
+Fungsi dari masing-masing elemen adalah:
 
 <header>: Menentukan bagian kepala halaman.
 
@@ -167,18 +200,36 @@ Beberapa elemen Semantic HTML memiliki fungsi sebagai berikut:
 
 <footer>: Menentukan bagian kaki halaman.
 
+Penggunaan Semantic HTML membuat kode lebih mudah dibaca dan membantu browser, mesin pencari (SEO), serta teknologi bantu memahami struktur halaman.
+
 9. Apa fungsi required, min, max, dan minlength?
+
+Fungsi dari masing-masing atribut adalah:
 
 required: Memastikan input wajib diisi.
 
-min: Menentukan batas nilai minimum.
+min: Menentukan nilai minimum yang diperbolehkan.
 
-max: Menentukan batas nilai maksimum.
+max: Menentukan nilai maksimum yang diperbolehkan.
 
 minlength: Menentukan jumlah karakter minimum pada input teks.
 
+Contoh:
+
+<input type="text" required minlength="5">
+
+Kode tersebut menunjukkan bahwa input wajib diisi dan harus memiliki minimal 5 karakter.
+
 10. Apa perbedaan elemen <audio> dan <video>?
+
+Perbedaannya adalah:
 
 <audio> digunakan untuk memutar berkas suara atau audio.
 
-Sedangkan <video> digunakan untuk memutar berkas video beserta tampilannya.
+<video> digunakan untuk memutar berkas video beserta tampilan visualnya.
+
+Kesimpulan
+
+Pada Praktikum 2 Pemrograman Web, telah dipelajari berbagai dasar HTML, mulai dari pembuatan tabel, form, radio button, checkbox, select, textarea, validasi form, Semantic HTML, hingga penambahan multimedia.
+
+Selain itu, melalui proyek mini Form Biodata Mahasiswa, konsep-konsep HTML yang telah dipelajari dapat diterapkan dalam pembuatan sebuah halaman web yang lebih lengkap dan terstruktur.
